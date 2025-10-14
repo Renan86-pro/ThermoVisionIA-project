@@ -115,7 +115,7 @@ Baixe o instalador oficial do [PostgreSQL](https://www.postgresql.org/download/w
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/ThermoVisionIA-project.git
+git clone https://github.com/Renan86-pro/ThermoVisionIA-project.git
 cd ThermoVisionIA-project
 ```
 
