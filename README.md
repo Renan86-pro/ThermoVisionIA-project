@@ -433,7 +433,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Para suporte, entre em contato:
 
-- **Email**: seu-email@exemplo.com
+- **Email**: renanhurtado.pro@gmail.com
 - **GitHub Issues**: [Criar Issue](https://github.com/Renan86-pro/ThermoVisionIA-project/issues)
 
 ## 🔮 Roadmap
