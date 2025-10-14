@@ -141,6 +141,13 @@ body {
     background-color: #ffffff;
     border: 2px solid #18181b;
     color: #18181b;
+    padding: 0.88rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: fit-content;
 }
 
 .btn-criarConta:hover {

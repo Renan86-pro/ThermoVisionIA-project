@@ -1,17 +1,17 @@
 from flask import request
 
 
-def obter_dados_cadastro():
-    c_usuario = request.form.get("c_usuario").strip()
-    c_email = request.form.get("c_usuario").strip()
-    c_telefone = request.form.get("c_telefone").strip()
-    c_senha = request.form.get("c_senha").strip()
+def obter_dados_cadastro(form_data):
+    c_usuario = form_data.get("c_usuario").strip()
+    c_email = form_data.get("c_email").strip()
+    c_telefone = form_data.get("c_telefone").strip()
+    c_senha = form_data.get("c_senha").strip()
 
-    return [c_usuario, c_email, c_telefone, c_senha]
+    return (c_usuario, c_email, c_telefone, c_senha)
 
 
-def obter_dados_login():
-    usuario = request.form.get("usuario").strip()
-    senha = request.form.get("senha").strip()
+def obter_dados_login(form_data):
+    usuario = form_data.get("usuario").strip()
+    senha = form_data.get("senha").strip()
 
-    return [usuario, senha]
+    return (usuario, senha)
